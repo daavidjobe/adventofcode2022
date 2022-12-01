@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "run": "deno run -A mod.ts",
+    "test": "deno test -A mod.ts",
+    "build": "deno compile -c deno.json --import-map=import_map.json mod.ts"
+  },
+  "importMap": "./import_map.json"
+}
